@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Spearly CMS & CLOUD tutorial</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- ↓ここにscriptタグを埋め込む↓ -->
+		<script src="https://static.spearly.com/js/v2/spearly-cms.browser.js" defer></script>
+        <script>window.addEventListener('DOMContentLoaded',()=>{const t=document.querySelectorAll(':not(:defined)');for(const e of t) {e.style.visibility="hidden";}; window.spearly.config.AUTH_KEY="nwaGnRaYKkAt5E_T_VNZmPGewsj-2qvnGwk_-pPHaPs"},{once:true})</script>
+        <!-- ↑ここにscriptタグを埋め込む↑ -->
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<h1><strong>I am Spearly</strong>, a super simple<br />
+					responsive site template freebie<br />
+					crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>SpearlyCMSとSpearlyCLOUDで「FAST, STRONG, SLIM」なコンテンツ表現の体験を。</h2>
+						</header>
+						<p>最速の方法で最高のコンテンツ管理が可能なHeadlessCMS, SpearlyCMSと, 高速でセキュアな安定したWebサイト配信を圧倒的に手軽に素早くできるSpearlyCLOUDを組み合わせることで,簡単にコンテンツ管理もできるWebサイトが作成できます。<br>
+						</p>
+						<ul class="actions">
+							<li><a href="https://cms.spearly.com/" class="button">Learn More about Spearly CMS</a></li>
+							<li><a href="https://cloud.spearly.com/" class="button">Learn More about Spearly CLOUD</a></li>
+						</ul>
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<h2>Recent Picture</h2>
+						<!-- ↓カスタムタグを用いてここにコンテンツを追加していきます。↓ -->
+
+						<article-list data-item-page-path="article.html">
+							<h3>{%= article_title %}</h3>
+							  <a href="{%= article_#url %}">
+								<img src="{%= article_image %}" alt="" class="fit image"/>
+							  </a>
+							<!-- <div style="background: url('{%= article_image %}');"></div> -->
+							<p>{%= article_description %}</p>
+						  </article-list>
+
+						<!-- ↑カスタムタグを用いてここにコンテンツを追加していきます。↑ -->
+						<ul class="actions">
+							<li><a href="#" class="button">Full Portfolio</a></li>
+						</ul>
+					</section>
+
+				<!-- Three -->
+					<section id="three">
+						<!-- ↓カスタムフォームタグを用いてここにコンテンツを追加していきます。↓ -->
+						<h2>お問い合わせ</h2>
+						<div class="row">
+							<div class="col-8 col-12-small">
+								<form method="post" action="#">
+									<div class="gtr-uniform gtr-50">
+										<span>Name</span>
+										<input type="text" name="name" id="name" placeholder="" />
+										<span>Email</span>
+										<input type="email" name="email" id="email" placeholder="" />
+										<span>Message</span>
+										<textarea name="message" id="message" placeholder="" rows=""></textarea>
+									</div>
+								</form>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</div>
+							<div class="col-4 col-12-small">
+								<h3>Address</h3>
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+										1234 Somewhere Rd.<br />
+										Nashville, TN 00000<br />
+										United States
+									</li>
+									<li>
+										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+										000-000-0000
+									</li>
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="#">hello@untitled.tld</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- ↑カスタムフォームタグを用いてここにコンテンツを追加していきます。↑ -->
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; unimal_</li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>Photo: <a href="https://www.flickr.com/photos/sople112911/page1">sp9611</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
